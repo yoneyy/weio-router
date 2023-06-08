@@ -158,7 +158,7 @@ const router = new WeioRouter();
   key: 'authorized',
   action: async (ctx, next) => {
    const token = wx.getStoreSync('auth:token'); 
-   if (string !== typeof token && token === '') {
+   if (string !== typeof token || token === '') {
     wx.showToast({
       icon: 'none',
       title: 'Please authorize login first',
