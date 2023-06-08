@@ -1,6 +1,6 @@
 {
   "name": "weio-router",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Process Routing with Middleware for wechat miniprogram",
   "main": "./lib/weio-router.js",
   "module": "./lib/weio-router.esm.js",
